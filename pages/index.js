@@ -11,6 +11,7 @@ import Testimonials from "../components/testimonials";
 import Cta from "../components/cta";
 import Faq from "../components/faq";
 import PopupWidget from "../components/popupWidget";
+import Navbar2 from "../components/navbar2";
 
 const Home = () => {
   return (
@@ -25,6 +26,7 @@ const Home = () => {
       </Head>
 
       <Navbar />
+      <Navbar2 />
       <Hero />
       <SectionTitle
         pretitle="Nextly Benefits"
