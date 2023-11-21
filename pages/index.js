@@ -12,8 +12,12 @@ import Cta from "../components/cta";
 import Faq from "../components/faq";
 import PopupWidget from "../components/popupWidget";
 import Navbar2 from "../components/navbar2";
+import { Button, Space, DatePicker, Card } from 'antd';
+import { SearchOutlined } from '@ant-design/icons';
+import SlideShow from "../components/slideshow";
 
 const Home = () => {
+  const onChange = () => {};
   return (
     <>
       <Head>
@@ -27,7 +31,8 @@ const Home = () => {
 
       <Navbar />
       <Navbar2 />
-      <Hero />
+      <SlideShow />
+      {/* <Hero /> */}
       <SectionTitle
         pretitle="Nextly Benefits"
         title=" Why should you use this landing page">

@@ -15,9 +15,7 @@ module.exports = {
       sans: ["Inter", ...defaultTheme.fontFamily.sans],
       stock: [defaultTheme.fontFamily.sans],
     },
-    // fontSize: {
-    //   sm: '0.8rem'
-    // }
+    
   },
   variants: {
     extend: {},
